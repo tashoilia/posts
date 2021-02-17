@@ -1,0 +1,127 @@
+.home-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: #F3F3FB;
+}
+
+.bcg-photo {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+}
+
+.img-carousel{
+    object-fit: fill;
+    width: 80px;
+    height: 160px;
+    border-top-left-radius: 20px !important;
+    border-top-right-radius: 20px !important;
+
+}
+
+.posts{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2rem;
+    
+}
+
+.ant-btn-circle {
+    position: fixed !important;
+    right: 3%;
+    bottom: 8%;
+    width: 60px !important;
+    height: 60px !important;
+    -webkit-box-shadow: 6px 5px 34px 2px rgba(204,202,237,1) !important;
+    -moz-box-shadow: 6px 5px 34px 2px rgba(204,202,237,1) !important;
+    box-shadow: 6px 5px 34px 2px rgba(204,202,237,1) !important;
+}
+
+.ant-card {
+    width: 260px;
+    height: 340px;
+    margin: 0 1rem 2rem 1rem !important;
+    border-radius: 20px !important;
+    cursor: default;
+}
+
+.ant-spin-nested-loading {
+    width: 100% !important;
+    height: 100vh !important;
+    display: flex !important;
+    align-items: center !important;
+}
+
+.ant-spin-container {
+    
+    height: 100vh !important;
+    display: flex !important;
+    align-self: center !important;
+}
+
+/* .ant-result {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+} */
+
+
+
+
+@media (max-width: 414px) {
+    .home-wrapper {
+        flex-direction: column;
+        background-color: #F3F3FB;
+        height: auto;
+    }
+
+    img {
+        width: 100% !important;
+        height: 240px;
+        position: relative;
+    }
+
+    .posts {
+        height: 100%;
+        margin-top: 12px;
+    }
+
+    .ant-btn-circle {
+        right: 9%;
+        bottom: 6%;
+        width: 65px !important;
+        height: 65px !important;
+    }
+
+    .ant-card {
+        width: 90%;
+        height: 330px;
+        margin: 0 1rem 2rem 1rem !important;
+        border-radius: 20px !important;
+        cursor: default;
+    }
+
+    .ant-spin-nested-loading {
+        width: 100% !important;
+        height: 100vh !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        justify-items: center !important;
+    }
+    
+    .ant-spin-container {
+        width: 100% !important;
+        height: 100vh !important;
+        display: flex !important;
+        align-self: center !important;
+    }
+
+} 
